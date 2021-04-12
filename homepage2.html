@@ -129,7 +129,142 @@
 
         <div class="footer">
             <p>Tiny Feather Portraits | Cartaret , NJ | tinyfeathersportraits@gmail.com</p>
-          </div>
+          </div><!DOCTYPE html>
+
+          <html lang="en">
+              <head>
+                  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+                  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+                  <link href="styles.css" rel="stylesheet">
+                  <title>My Webpage</title>
+                  <script>
+                      document.addEventListener('DOMContentLoaded', function() {
+                          let click = document.querySelector('#t1');
+                          document.querySelector('#t1').onmouseover = function() {
+                              document.getElementById("demo").innerHTML = "Maternity";
+                              click.style.border = '5px solid darkblue';   
+                          } 
+                      });
+                      document.addEventListener('DOMContentLoaded', function() {
+                          let click = document.querySelector('#t1');
+                          document.querySelector('#t1').onmouseout = function() {
+                              document.getElementById("demo").innerHTML = "";
+                              click.style.border = "";
+          
+                          } 
+                      });
+                      document.addEventListener('DOMContentLoaded', function() {
+                          let click = document.querySelector('#t3');
+                          document.querySelector('#t3').onmouseover = function() {
+                              document.getElementById("demo2").innerHTML = "Newborns";
+                              click.style.border = '5px solid darkblue';   
+                          } 
+                      });
+                      document.addEventListener('DOMContentLoaded', function() {
+                          let click = document.querySelector('#t3');
+                          document.querySelector('#t3').onmouseout = function() {
+                              document.getElementById("demo2").innerHTML = "";
+                              click.style.border = "";
+          
+                          } 
+                      });
+                      document.addEventListener('DOMContentLoaded', function() {
+                          let click = document.querySelector('#t4');
+                          document.querySelector('#t4').onmouseover = function() {
+                              document.getElementById("demo3").innerHTML = "Family";
+                              click.style.border = '5px solid darkblue';   
+                          } 
+                      });
+                      document.addEventListener('DOMContentLoaded', function() {
+                          let click = document.querySelector('#t4');
+                          document.querySelector('#t4').onmouseout = function() {
+                              document.getElementById("demo3").innerHTML = "";
+                              click.style.border = "";
+          
+                          } 
+                      });            document.addEventListener('DOMContentLoaded', function() {
+                          let click = document.querySelector('#t5');
+                          document.querySelector('#t5').onmouseover = function() {
+                              document.getElementById("demo4").innerHTML = "Holiday Seasons";
+                              click.style.border = '5px solid darkblue';   
+                          } 
+                      });
+                      document.addEventListener('DOMContentLoaded', function() {
+                          let click = document.querySelector('#t5');
+                          document.querySelector('#t5').onmouseout = function() {
+                              document.getElementById("demo4").innerHTML = "";
+                              click.style.border = "";
+                              
+                          } 
+                      });
+                  </script>
+              </head>
+              <body>
+                  <div class=jumbotron>
+                      <a href="https://www.instagram.com/tinyfeathersportraits/" style=text-decoration:none;>
+                          <img alt= "Picture" src="tinyfeathers9.png" width="50 height=50">
+                      </a>
+                      <span class='space'><a href="homepage.html">Home</a> &emsp; <a href="homepage2.html">About</a> 
+                          &emsp; <a href="homepage3.html">Sessions</a> &emsp; <a href="homepage4.html">Contact</a></span>
+                  </div>
+          
+                  <img class="center" alt= "Picture" src="tinyfeathers3.png" width="300" height="150">
+                  <hr>
+                  <figure class="item">
+                      <a href="homepage3.html">
+                          <img id="t1" alt= "Picture" src="tinyfeathers5.jpg" class="container">
+                      </a>
+                      <figcaption class="caption">
+                          <div id="t2" class="div2">
+                              <p style="font-family:Snell Roundhand, cursive;font-size:25px" id="demo"></p>
+                          </div>
+                      </figcaption>
+                  </figure>
+                  <figure class="item">
+                      <a href="homepage3.html">
+                          <img id="t3" alt= "Picture" src="tinyfeathers1.jpg" class="container">
+                      </a>
+                      <figcaption class="caption">
+                          <div class="div2">
+                              <p style="font-family:Snell Roundhand, cursive;font-size:25px" id="demo2"></p>
+                          <div>
+                              </figcaption>
+                  </figure>
+                  <figure class="item">       
+                      <img id="t4"  alt= "Picture" src="tinyfeathers4.jpg" class="container">
+                          <figcaption class="caption">
+                              <div class="div2">
+                                  <p style="font-family:Snell Roundhand, cursive;font-size:25px" id="demo3"></p>
+                              <div>
+                          </figcaption>
+                  </figure>
+                  <figure class="item">
+                      <img id="t5" alt= "Picture" src="tinyfeathers7.jpg" class="container">
+                          <figcaption class="caption">
+                              <div class="div2">
+                                  <p style="font-family:Snell Roundhand, cursive;font-size:25px" id="demo4"></p>
+                              <div>   
+                          </figcaption>
+                  </figure>
+                  <br></br>
+                  <h2><p>Welcome</p></h2>
+                  <h2>Thank you so much for visiting my page! I am a portrait photographer specializing in newborns, maternity and families. I offer custom sessions at my central NJ studio and I absolutely love my job! </h2>
+                  <br></br>
+                  <h2><p>Follow me on Instagram:</p></h2>
+                  <a href="https://www.instagram.com/tinyfeathersportraits/" style=text-decoration:none;>
+                      <img class="center" alt= "Picture" src="tinyfeathers9.png">
+                  </a>
+                  <br></br>
+                  <hr>
+          
+                  <div class="footer">
+                      <p>Tiny Feather Portraits | Cartaret , NJ | tinyfeathersportraits@gmail.com</p>
+                    </div>
+          
+              </body>
+          </html>
+          
 
     </body>
 </html>
