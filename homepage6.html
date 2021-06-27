@@ -22,6 +22,18 @@
                     click.style.border = "";
 
                 } 
+            document.addEventListener('DOMContentLoaded', function() {
+                let click = document.querySelector('#t1');
+                document.querySelector('#t1').onmouseover = function() {
+                    document.getElementById("demo").innerHTML = "Maternity";
+                    click.style.border = '5px solid darkblue';   
+                } 
+            });
+            document.addEventListener('DOMContentLoaded', function() {
+                let click = document.querySelector('#t1');
+                document.querySelector('#t1').onmouseout = function() {
+                    document.getElementById("demo").innerHTML = "";
+                    click.style.border = "";
             });
             document.addEventListener('DOMContentLoaded', function() {
                 let click = document.querySelector('#t3');
